@@ -18,7 +18,7 @@ Route::get('/',function(){
     return view('home');
 });
 
-Route::get("viewall",[UserController::class,'index']);
+Route::get("/viewall",[UserController::class,'index']);
 
 Route::post("addme",[UserController::class,'addData']);
 
