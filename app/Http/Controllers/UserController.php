@@ -14,7 +14,7 @@ class UserController extends Controller
         $data = collection::all();
 
         // return view('viewall',["data"=>$data]);
-        return View::make("viewrecipe")->with("data", $data);
+        return view("viewrecipe")->with("data", $data);
     }
 
     function addData(Request $req){
