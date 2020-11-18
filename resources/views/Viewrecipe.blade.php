@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-sm-10 col-md-11 col-lg-11">
                     <h5 class="mb-0 " >
-                        <button class="btn btn " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn " data-toggle="collapse" data-target="#collapse{{$data['id']}}" aria-expanded="true" aria-controls="collapseOne">
                             <span class="title-me">
                                 {{ $data['title'] }} 
                             </span>    
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+        <div id="collapse{{$data['id']}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
             <p >
               <span class="tit">
