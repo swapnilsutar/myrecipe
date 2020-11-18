@@ -34,7 +34,7 @@
         <button class="btn btn-success btn-block form-control" type="submit">Submit</button>
     </form>
     
-    <a href="dbme">
+    <a href="/viewall">
         <button class="form-control btn btn-warning"> View All Recipes</button>
     </a>
 </div>
