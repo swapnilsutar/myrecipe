@@ -41,7 +41,7 @@
 
     
     <footer class="text-center">
-        Copyright 2020 :
+        Copyright &#169; 2020 :
         <a href="https://swapnilsutar.netlify.app/" target="_blank">
             Swapnil Sutar
         </a> 
